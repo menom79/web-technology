@@ -1,0 +1,60 @@
+/* This is a style part */
+
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* This is id part as well as h1 */
+#banner {
+    text-align: center;
+    color: whitesmoke;
+    height: 100px;
+    background-color: rgb(154, 177, 196);
+    padding: 30px 0px 1px 0px;
+    font-size: 300%;
+    margin: 0%;
+}
+
+/* The navigation bar as well as h3*/
+.nav {
+    height: 30px;
+    color: aqua;
+    background-color: lightslategray;
+    text-align: center;
+    font-size: medium;
+    vertical-align: middle;
+}
+h2 {
+    color: white;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+} 
+h3 {
+    color: gray;
+    
+}
+a:visited {
+    color: purple;
+}
+a:active {
+    text-decoration: none;
+    color: chocolate;
+}
+a:hover {
+    color: red;
+}
+
+#menu {
+    background-color: black;
+    height:80px;  
+    margin:auto;    
+}
+
+#menu div {
+    vertical-align: middle; 
+    margin:auto;
+    background-color: blueviolet;
+}

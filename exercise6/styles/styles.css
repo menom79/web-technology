@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap");
+
+* {
+    margin: 0;
+}
+body {
+    font-size: 100%;
+}
+article.page {
+    max-width: 90%;
+    background-color: burlywood;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+}
+header {
+    height: 10%;
+    background-color: #575757;
+    font-size: 200%;
+    text-align: center;
+    color: #F0EBEB;
+    padding: 1em;
+    font-family: serif;
+}
+/* It is a hidden header */
+h6.hidden {
+    display: none;
+}
+nav, footer {
+    text-align: center;
+    background-color: #E49A2F;
+    color: #F7F5EE;
+    font-family: Arial Bold;
+}
+footer {
+    line-height: 3.15em;
+}
+/* this is the ul navigation bar START */
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .875em 1em;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
+.active_pagelink {
+    background-color: red;
+}
+/* this is the ul navigation bar END */
+section {
+    background-color: #D8CCAF;
+    overflow: hidden;
+}
+#left {
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    width: 40%;
+    padding: 1.875em;
+    border: 1px solid white;
+    margin: 3%;
+    float: left;
+    font-size: 80%;
+}
+#right {
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    width: 40%;
+    height: auto;
+    padding: 1.875em;  
+    border: 1px solid white;
+    margin: 3%;
+    float: right;
+    font-size: 80%;
+}
+.left_heading {
+    font-size: 2em;
+    font-family: cursive;
+}
+.content_heading {
+    font-size: 1.5em;
+    font-family: cursive;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fas {
+    display: inline;
+    color: goldenrod;
+    font-size: 1.5em;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+.left, .right {
+    float: none;
+    width: 80%;
+    margin: 3% auto;
+}}
